@@ -1,7 +1,6 @@
 .header {
     background-color: transparent;
     min-height: unset;
-    position: absolute;
     z-index: 99;
     transition: background-color 200ms linear;
 }
@@ -17,16 +16,6 @@
     fill: var(--black);
 }
 
-.header.active .container .nav {
-    color: var(--black);
-}
-
-.header.active .btn {
-    color: var(--white);
-    background-color: var(--primary);
-    border-color: var(--primary);
-}
-
 .header .row {
     width: 100%;
     min-height: unset;
@@ -39,13 +28,7 @@
 
 .header .logo,
 .footer .logo {
-    width: 90px;
-}
-
-.footer-logo {
-    color: var(--primary);
-    font-weight: 700;
-    font-size: 26px;
+    width: 100px;
 }
 
 .header .nav-logo {
@@ -63,9 +46,11 @@
 }
 
 .header .container .nav {
-    color: var(--white);
+    color: var(--primary);
     opacity: 1;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
     text-decoration: none;
     transition: var(--transition);
 }
@@ -125,10 +110,20 @@
     margin: 30px auto;
 }
 
+.footer .mail {
+    color: var(--white);
+    transform: var(--transition);
+}
+
+.footer .mail:hover {
+    color: var(--primary);
+    transform: var(--transition);
+}
+
 .made-by {
     width: 100%;
     max-width: 1200px;
-    /* display: flex; */
+    display: flex;
     display: none;
     justify-content: center;
     margin: 0 auto;

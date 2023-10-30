@@ -66,19 +66,11 @@
 
 .services.section {
     justify-content: center;
-    background-image: url('/home/img/services.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     position: relative;
 }
 
 .services .row {
     z-index: 20;
-}
-
-.services h2 {
-    color: var(--white);
 }
 
 .services-wrapper .item {
@@ -99,6 +91,26 @@
 
 .services-wrapper .item a {
     margin-top: 20px;
+}
+
+.contact.section {
+    justify-content: center;
+    height: 50vh;
+    background-image: url('/home/img/image2.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.contact.section .row {
+    color: var(--white);
+    z-index: 10;
+}
+
+.contact.section .overlay {
+    opacity: 0.6;
+    background: var(--black);
 }
 
 @media (max-width: 560px) {

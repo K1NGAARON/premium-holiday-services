@@ -1,16 +1,3 @@
-$(document).scroll(function () {
-    const header = $('.header');
-    const logo = $('.header .logo');
-
-    if ($(this).scrollTop() > header.height()) {
-        $(logo).attr("src","/assets/logo/logo-dark.png");
-        header.addClass('active');
-    } else {
-        $(logo).attr("src","/assets/logo/logo.png");
-        header.removeClass('active');
-    }
-});
-
 $("#menu-toggle").click(function() {
     $(".small-menu-wrapper").toggle("active");
 });
