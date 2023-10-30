@@ -142,6 +142,32 @@
     transition: var(--transition);
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.socials a {
+    font-size: 24px;
+}
+
+.socials i {
+    color: var(--white);
+    width: 30px;
+    transition: var(--transition);
+}
+
+.socials i:hover {
+    color: var(--primary);
+    transition: var(--transition);
+}
+
 @media (max-width: 800px) {
     .header .row {
         display: none;
