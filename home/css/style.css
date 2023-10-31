@@ -159,7 +159,8 @@
     }
 
     .reviews.section {
-        height: 90vh;
+        height: 50vh;
+        min-height: fit-content;
     }
 
     .banner h1,

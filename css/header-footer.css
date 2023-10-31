@@ -189,8 +189,8 @@
 
 
     .header .topnav-content-sm svg {
-        fill: var(--white);
-        width: 35px;
+        fill: var(--primary);
+        width: 30px;
     }
 
     .header .topnav-content-sm svg:hover {
