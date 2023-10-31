@@ -43,13 +43,9 @@ document.addEventListener( 'DOMContentLoaded', function() {
         heightRatio: 0.3,
         perPage: 3,
         perMove: 1,
-        // breakpoints: {
-        //     1000: {
-        //         heightRatio: 1,
-        //         perPage: 2,
-        //     }
-        // },
         type: 'loop',
+        // autoplay: 'true',
+        // interval: 3000,
         speed: 3000,
     }).mount();
 });
