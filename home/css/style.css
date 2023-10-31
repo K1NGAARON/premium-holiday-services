@@ -153,6 +153,10 @@
     border-bottom-left-radius: 12px;
 }
 
+.wrapper.mobile {
+    display: none;
+}
+
 @media (max-width: 560px) {
     .banner {
         height: 80vh;
@@ -166,10 +170,6 @@
     .banner h1,
     .banner p {
         width: 100%;
-    }
-
-    .splide {
-        overflow: hidden;
     }
 
     .banner.section .row h1 {
@@ -186,5 +186,19 @@
 
     .services-wrapper h3 {
         font-size: 24px;
+    }
+
+    .wrapper.splide {
+        display: none;
+    }
+
+    .wrapper.mobile {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 20px;
+    }
+
+    .wrapper.mobile img {
+        flex: 1 0 40%;
     }
 }
