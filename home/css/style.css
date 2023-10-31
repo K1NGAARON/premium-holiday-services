@@ -168,6 +168,10 @@
         width: 100%;
     }
 
+    .splide {
+        overflow: hidden;
+    }
+
     .banner.section .row h1 {
         font-size: 30px;
     }
