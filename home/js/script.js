@@ -1,29 +1,29 @@
 function changeReviews() {
     const reviews = [
         {
-            name: 'Kim',
-            review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quasi, debitis cupiditate esse facilis explicabo dolore iusto excepturi cum maxime?',
+            name: 'Emma J.',
+            review: "De diensten hebben mijn pand naar een nieuw niveau getild. Een waardevolle partner voor elke eigenaar.",
         },
         {
-            name: 'Gery',
-            review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quasi, debitis cupiditate esse facilis explicabo dolore iusto excepturi cum maxime?',
+            name: 'Thomas D.',
+            review: "Premium Holiday Services heeft mijn verwachtingen overtroffen met hun uitmuntende check-in service en 24/7 bijstand. Mijn gasten genieten van een zorgeloos verblijf, en ik geniet van een stressvrije verhuurervaring.",
         },
         {
-            name: 'Yoshi',
-            review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quasi, debitis cupiditate esse facilis explicabo dolore iusto excepturi cum maxime?',
+            name: 'Olivier D.',
+            review: "De lakenservice van Premium Holiday Services heeft mijn gasten aangenaam verrast. De bedden zijn altijd prachtig opgemaakt, wat bijdraagt aan de algehele luxe sfeer van mijn vakantieverblijf.",
         },
         {
-            name: 'Nena',
-            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quasi, debitis cupiditate esse facilis explicabo dolore iusto excepturi cum maxime?"
+            name: 'Hugo B.',
+            review: "Als eigenaar waardeer ik de flexibiliteit van Premium Holiday Services bij check-in en check-out. Ze nemen de stress weg en zorgen ervoor dat alles perfect verloopt, zelfs bij last-minute wijzigingen.",
         },
         {
-            name: 'Carol',
-            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quasi, debitis cupiditate esse facilis explicabo dolore iusto excepturi cum maxime?"
+            name: 'Eva C.',
+            review: "Als eigenaar waardeer ik de persoonlijke touch door Premium Holiday Services. Ze nemen de tijd om mijn gasten warm te verwelkomen en te bedanken, wat mijn beoordelingen ferm heeft verbeterd.",
         },
         {
-            name: 'Liesa',
-            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quasi, debitis cupiditate esse facilis explicabo dolore iusto excepturi cum maxime?"
-        }
+            name: 'Amélie R.',
+            review: "Gasten waarderen het comfort en de zorg waarmee hun bedden zijn opgemaakt. Bijkomend is de poetsdienst van Premium Holiday Services van topkwaliteit.",
+        },
     ];
 
     $('.dot').removeClass('active');
