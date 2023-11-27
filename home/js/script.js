@@ -6,7 +6,7 @@ function changeReviews() {
         },
         {
             name: 'Thomas D.',
-            review: "Premium Holiday Services heeft mijn verwachtingen overtroffen met hun uitmuntende check-in service en 24/7 bijstand. Mijn gasten genieten van een zorgeloos verblijf, en ik geniet van een stressvrije verhuurervaring.",
+            review: "Premium Holiday Services heeft mijn verwachtingen overtroffen met hun uitmuntende check-in service en 7/7 bijstand. Mijn gasten genieten van een zorgeloos verblijf, en ik geniet van een stressvrije verhuurervaring.",
         },
         {
             name: 'Olivier D.',

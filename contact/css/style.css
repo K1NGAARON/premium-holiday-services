@@ -27,11 +27,15 @@
 } */
 
 .banner {
-    height: 80vh;
+    height: 100vh;
 }
 
 .contact-img {
     width: 60%;
+}
+
+.banner h1 {
+    font-size: 40px;
 }
 
 @media (max-width: 560px) {
